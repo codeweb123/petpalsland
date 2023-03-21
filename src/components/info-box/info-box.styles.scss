@@ -1,0 +1,29 @@
+.info-box-container {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 7px dotted rgb(129, 225, 242);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    top: 400px;
+    right: 50px;
+    z-index: 2000;
+  
+    .info-items {
+      height: 240px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .type {
+      font-style: italic;
+    }
+  
+    button {
+      margin-top: auto;
+    }
+  }
+  

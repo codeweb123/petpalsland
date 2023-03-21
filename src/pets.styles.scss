@@ -1,0 +1,34 @@
+.login-container {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pets-choice-container {
+    background-color: rgb(67, 193, 212);
+    padding: 20px;
+    display: flex;
+}
+
+.pet-container {
+    background-color: rgb(231, 196, 201);  
+    padding: 30px;
+}
+
+.background-image {
+    width: 10%;
+    height: 10%;
+    background-size: cover;
+    background-position: center;
+}
+
+.pet-body-container {
+    display: flex;
+    align-items: center;
+
+    h6 {
+        padding: 100px;
+    }
+}

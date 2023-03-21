@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Oxanium|PT+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: PT Mono, sans-serif;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.i-box-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.info-box-items {
+  position: absolute;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.z-index-created-div {
+  position: relative;
+  z-index: 100;
+  margin-top: 140px;
+}
