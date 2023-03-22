@@ -1,5 +1,7 @@
 import Login from "../../components/log-in/log-in.component";
 
+import "./pets.styles.scss";
+
 const Pets = () => {
   const pets = [
     {
@@ -28,12 +30,16 @@ const Pets = () => {
       imageUrl: "https://i.imgur.com/nf55Ezu.png",
     },
   ];
-
   return (
     <div>
       <br></br>
       <br></br>
       <Login pets={pets} />
+      <h2>
+        The award-winning website where k-5 students go to make sense of math -
+        anytime, anywhere!
+      </h2>
+      <h2>Sign in. Pick a pet. Pick a land. Start the game!</h2>
     </div>
   );
 };
