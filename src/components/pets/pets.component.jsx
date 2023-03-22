@@ -39,7 +39,7 @@ const Pets = () => {
         The award-winning website where k-5 students go to make sense of math -
         anytime, anywhere!
       </h2>
-      <h2>Sign in. Pick a pet. Pick a land. Start the game!</h2>
+      <h3>Sign in. Pick a pet. Pick a land. Start the game!</h3>
     </div>
   );
 };
