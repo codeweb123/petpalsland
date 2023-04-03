@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+Pet Pal Land is a mock Edtech website created with a React frontend and utilizes React components. It features a Firebase/Firestore API backend where users, pets, lands persists. Students may choose a pet, choose a land and practice math skills.  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with Create React App.
 
 ## Available Scripts
 
